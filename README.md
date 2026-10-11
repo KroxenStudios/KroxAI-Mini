@@ -129,5 +129,5 @@ python examples/torch_train.py data.json
 python examples/chat.py
 ```
 
-
+Note: KroxAI mini is an example of how EAM works and somehow not ready-to-use.
 
