@@ -1,6 +1,8 @@
 # KroxAI-mini
 **KroxAI mini** is an open source AI project. Released on 1st November 2025.
 
+**DEVELOPMENT DISCONTINUED**
+
 **KroxAI mini**
 * Untrained simple EAM (Evidence‑Augmented Model) Chatbot with RAG features (e.g for implementing live databases)
 * Trained (small) version available too.
@@ -126,4 +128,6 @@ python examples/torch_train.py data.json
 ```bash
 python examples/chat.py
 ```
+
+
 
