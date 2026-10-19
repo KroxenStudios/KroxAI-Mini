@@ -131,3 +131,4 @@ python examples/chat.py
 
 Note: KroxAI mini is an example of how EAM works and somehow not ready-to-use.
 
+Special thanks to KROX (GitHub K-R-O-X) 
