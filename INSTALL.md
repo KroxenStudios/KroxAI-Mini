@@ -7,17 +7,7 @@
 
 ## Installation Methods
 
-### 1. Install from PyPI (Recommended)
-
-Once the package is published to PyPI, you can install it with:
-
-```bash
-pip install kroxai-mini
-```
-
-### 2. Install from Source
-
-For development or to get the latest unreleased features:
+### 1. Install from Source
 
 ```bash
 git clone https://github.com/KroxenStudios/KroxAI-Mini.git
@@ -30,26 +20,6 @@ The `-e` flag installs the package in "editable" mode, meaning changes to the so
 ### 3. Install with Optional Dependencies
 
 KroxAI-Mini has several optional dependency groups:
-
-#### Server Dependencies (FastAPI, uvicorn, BM25)
-```bash
-pip install kroxai-mini[server]
-```
-
-#### PyTorch Support
-```bash
-pip install kroxai-mini[torch]
-```
-
-#### HuggingFace Transformers Support
-```bash
-pip install kroxai-mini[transformers]
-```
-
-#### All Optional Dependencies
-```bash
-pip install kroxai-mini[all]
-```
 
 ## Package Structure
 
@@ -118,8 +88,7 @@ pip install transformers
 
 If Python can't find the package, ensure:
 1. You've activated the correct virtual environment (if using one)
-2. The package is installed: `pip list | grep kroxai`
-3. You're running Python from the same environment where you installed the package
+2. You're running Python from the same environment where you installed the package
 
 ## Development Setup
 
@@ -130,17 +99,6 @@ For contributing to KroxAI-Mini:
 git clone https://github.com/KroxenStudios/KroxAI-Mini.git
 cd KroxAI-Mini
 
-# Install in editable mode with all dependencies
-pip install -e .[all]
-
 # Run examples
 python examples/chat.py
-```
 
-## Uninstallation
-
-To remove KroxAI-Mini:
-
-```bash
-pip uninstall kroxai-mini
-```
