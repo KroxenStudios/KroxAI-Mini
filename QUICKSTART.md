@@ -4,11 +4,7 @@ Get started with KroxAI-Mini in minutes!
 
 ## 1. Installation
 
-```bash
-pip install kroxai-mini
-```
-
-Or install from source:
+install from source:
 ```bash
 git clone https://github.com/KroxenStudios/KroxAI-Mini.git
 cd KroxAI-Mini
@@ -161,4 +157,4 @@ python test_install.py  # Verify installation
 - **Discussions**: https://github.com/KroxenStudios/KroxAI-Mini/discussions
 - **Examples**: Check the `examples/` directory
 
-Happy coding with KroxAI-Mini! 🚀
+
